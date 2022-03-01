@@ -1,0 +1,99 @@
+/* Colors and fonts */
+
+body { 
+	background: #F3F1F5;
+	color: #00B4D8;
+	font-family: Playfair Display, sans-serif;
+	font-size: 17px;
+ }
+
+h1 {
+	color: #03045E ;
+	font-family: Shizuru, serif;
+	font-size: 32px;
+}
+
+h2 {
+	color: #398AB9;
+	font-family: Shizuru;
+	font-size: 24px;
+}
+
+ a { 
+ 	text-decoration: none;
+ 	color: #398AB9;
+ 	font-family: Shizuru;
+  }
+
+ a:hover { 
+ 	color : #90E0EF;
+
+ }
+
+/* Custom sign with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+@media (max-width: 760px){
+	.container {
+		width:  600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background: #F3F1F5;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 1.0);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #398AB9;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: #03045E;
+	color: #90E0EF;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: #03045E;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
